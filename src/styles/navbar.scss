@@ -1,0 +1,9 @@
+.el-menu--popup {
+    .el-menu-item {
+        &:not(.is-disabled) {
+            &:hover {
+                background-color: rgb(56, 84, 137) !important;
+            }
+        }
+    }
+}
